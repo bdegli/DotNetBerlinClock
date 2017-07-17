@@ -60,8 +60,12 @@
     <Compile Include="Classes\TimeConverter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="BDD\BerlinClockFeatureSteps.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>BerlinClockFeatureSteps.feature.cs</LastGenOutput>
